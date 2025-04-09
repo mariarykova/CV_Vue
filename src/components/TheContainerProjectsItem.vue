@@ -74,5 +74,18 @@ export default {
         align-items: center;
     }
 
+    @media (max-width: 500px) {
+        .project-title {
+            font-size: 14px;
+        }
+
+        .project-subtitle {
+            font-size: 12px;
+        }
+        .project-link {
+            font-size: 14px;
+        }
+    }
+
 
 </style>

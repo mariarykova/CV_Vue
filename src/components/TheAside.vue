@@ -111,4 +111,27 @@ export default {
         letter-spacing: 0.01em;
         color: #e5e5e5;
  }
+
+ @media (max-width: 1025px) {
+  .aside {
+    padding: 25px;
+  }
+
+  @media (max-width: 500px) {
+  .aside {
+    padding: 30px;
+    max-width: 273px;
+    margin: 0 auto;
+  }
+
+  .aside-quote {
+    font-size: 14px;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+  
+}
+}
   </style>

@@ -125,4 +125,20 @@ export default {
     border-radius: 50%;
 }
 
+
+@media (max-width: 1025px) {
+   .experince-item {
+    flex-direction: column;
+   }
+}
+
+@media (max-width: 1025px) {
+    .experience-description {
+    max-width: 300px;
+   }
+
+
+
+}
+
 </style>

@@ -84,4 +84,18 @@ export default {
     gap: 50px;
     justify-content: center;
 }
+
+@media screen and (max-width: 1025px) {
+    .skills-list {
+        gap: 20px;
+    }  
+}
+
+@media screen and (max-width: 500px) {
+    .skills-list {
+        padding: 16px;
+        max-width: 245px;
+        justify-content: space-evenly;
+    }  
+}
 </style>

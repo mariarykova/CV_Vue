@@ -70,5 +70,11 @@ export default {
     color: #79819a;
 }
 
+@media (max-width: 500px) {
+    .education-item {
+        padding: 16px;
+    }
+}
+
 
 </style>

@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="skill-item">
         <img :src="icon" :alt="title" class="skill-icon" />
         <div class="skill-title">{{ title }}</div>
         <div class="skill-subtitle">{{ subtitle }}</div>
@@ -44,6 +44,21 @@ export default {
         letter-spacing: 0.01em;
         text-align: center;
         color: #79819a;
+    }
+
+
+    @media (max-width: 1025px) {
+        .skill-subtitle {
+            width: 100%;
+            max-width: 100px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .skill-item {
+            max-width: 100px;
+            width: 100%;
+        }
     }
 
 

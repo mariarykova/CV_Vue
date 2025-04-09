@@ -75,4 +75,11 @@ export default {
     display: flex;
     margin-left: 2px;
 }
+
+@media (max-width: 500px) {
+    .experience-list {
+        padding-right: 25px;
+    }
+    
+}
 </style>

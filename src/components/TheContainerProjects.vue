@@ -56,7 +56,20 @@ export default {
     justify-content: space-between;
     padding: 32px;
     width: 100%;
+}
 
+@media (max-width: 1025px) {
+   .project-list {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+   }
+}
+
+@media (max-width: 500px) {
+    .project-list {
+        padding: 32px 0px 32px 10px
+    }
 }
 
 
