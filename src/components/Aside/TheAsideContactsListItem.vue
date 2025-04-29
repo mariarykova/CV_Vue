@@ -3,13 +3,16 @@ export default {
     name: 'TheAsideContactsListItem',
     props: {
         icon: {
-            type: String,
+                type: String,
+                required: true
         },
         title: {
-            type: String,
+                type: String,
+                required: true
         },
         text: {
-            type: String,
+                type: String,
+                required: true
         }
     },
     computed: {

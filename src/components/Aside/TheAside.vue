@@ -1,5 +1,5 @@
 <script>
-import myPhoto from '../assets/images/photo.jpeg';
+import myPhoto from '../../assets/images/photo.jpeg';
 import TheAsideContactsList from './TheAsideContactsList.vue'
 import TheAsideHobbiesList from './TheAsideHobbiesList.vue';
 import TheAsideLanguagesList from './TheAsideLanguagesList.vue';

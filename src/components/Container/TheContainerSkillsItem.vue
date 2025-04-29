@@ -4,12 +4,18 @@ export default {
     props: {
         title: {
             type: String,
+            requierd: true,
+
         },
         subtitle: {
             type: String,
+            requierd: true,
+
         },
         icon: {
             type: String,
+            requierd: true,
+
         }
     }
 }

@@ -1,5 +1,5 @@
 <script>
-import BaseItemLayout from './BaseItemLayout.vue';
+import BaseItemLayout from '../Base/BaseItemLayout.vue';
 
 export default {
     name: 'TheAsideLanguagesList',
@@ -8,7 +8,8 @@ export default {
     },
     props: {
         hobbies: {
-            type: Array,
+                type: Array,
+                required: true
         }
     }
 }

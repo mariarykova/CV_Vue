@@ -4,15 +4,23 @@ export default {
     props: {
         title: {
             type: String,
+            requierd: true,
+
         },
         subtitle: {
             type: String,
+            requierd: true,
+
         },
         icon: {
             type: String,
+            requierd: true,
+
         },
         link: {
             type: String,
+            requierd: true,
+
         }
     }
 }

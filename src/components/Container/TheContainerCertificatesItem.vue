@@ -4,15 +4,23 @@ export default {
     props: {
         title: {
             type: String,
+            requierd: true,
+
         },
         company: {
             type: String,
+            requierd: true,
+
         },
         date: {
             type: String,
+            requierd: true,
+
         },
         icon: {
             type: String,
+            requierd: true,
+
         }
     }
 }

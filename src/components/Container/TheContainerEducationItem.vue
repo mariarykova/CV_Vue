@@ -4,15 +4,23 @@ export default {
     props: {
         name: {
             type: String,
+            requierd: true,
+
         },
         degree: {
             type: String,
+            requierd: true,
+
         },
         date: {
             type: String,
+            requierd: true,
+
         },
         icon: {
             type: String,
+            requierd: true,
+
         }
     }
 }

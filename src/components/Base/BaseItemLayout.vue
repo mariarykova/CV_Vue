@@ -4,12 +4,15 @@ export default {
     props: {
         icon: {
             type: String,
+            requierd: true,
         },
         title: {
             type: String,
+            requierd: true,
         },
         text: {
             type: String,
+            requierd: true,
         }
     },
     computed: {

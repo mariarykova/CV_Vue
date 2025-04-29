@@ -1,6 +1,6 @@
 <script setup>
-import TheAside from './components/TheAside.vue';
-import TheContainer from './components/TheContainer.vue';
+import TheAside from './components/Aside/TheAside.vue';
+import TheContainer from './components/Container/TheContainer.vue';
 </script>
 
 <template>

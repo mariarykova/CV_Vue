@@ -8,7 +8,8 @@ export default {
     },
     props: {
         contacts: {
-            type: Array,
+                type: Array,
+                required: true
         }
     }
 }
